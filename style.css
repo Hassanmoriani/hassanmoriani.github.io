@@ -1,49 +1,44 @@
-body{
-    background-color: rgb(0, 0, 0);
-}
-#calc-contain{
-    position: relative;
-    width: 350px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(214, 213, 213);
-    border-radius: 12px;
-    margin: 0px auto;
-    padding: 10px;
-  }
-  #agh{
-    position: relative;
-    float: right;
-    margin-top: 15px;
-  }
-  #agh p{
-    font-size: 20px;
-    font-weight: 900;
-  }
-  input[type=button] {
-    background: rgb(185, 179, 179);
-    width: 20%;
-    font-size: 20px;
-    font-weight: 900;
-    border-radius: 7px;
-    margin-left: 13px;
-    margin-top: 10px;
-  }
-  input[type=button]:active {
-    background-color: #ffffff;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  input[type=button]:hover {
-    background-color: #ffffff;
-    color: rgb(15, 15, 15);
+* {
+    margin: 0;
+    padding: 0;
   }
   
-  input[type = text] {
-    position: relative;
-    display: block;
-    width: 90%;
-    margin: 5px auto;
-    font-size: 20px;
-    padding: 10px;
-    box-shadow: 4px 0px 12px black inset;
+  html {
+    background: rgb(27, 27, 27);
+    color: rgb(204, 197, 197);
+    font-family: Menlo;
   }
+  
+  .controls {
+    position: fixed;
+    text-align: center;
+    top: 2em;
+    width: 100%;
+  }
+  
+  .button {
+    color: rgb(107, 106, 106);
+    font-size: 3vw;
+    margin: 0 0.5em;
+    text-decoration: none;
+  }
+  
+  .button:first-child {
+      margin-left: 0;
+  }
+  
+  .button:last-child {
+      margin-right: 0;
+  }
+  
+  .button:hover {
+    color: rgb(253, 222, 222);
+  }
+  
+  .stopwatch {
+    font-size: 20vw;
+    height: 100%;
+    line-height: 100vh;
+    text-align: center;
+  }
+  
